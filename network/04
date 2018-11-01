@@ -3,4 +3,4 @@
 # j'ai choisis inet car correspond à une carte ethernet filaire
 # recupere ensuite toute les lignes contenant "default"
 # affiche uniquement le 2eme bloc
-netstat -rf inet| grep "default" | awk '{print $2}'
+netstat -rf inet | grep "default" | awk '{print $2}'
