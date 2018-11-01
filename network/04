@@ -1,6 +1,6 @@
 # -r correspond à la table de routage
 # -f correspond aux adresses familles (inet, inet6, unix)
-#  j'ai choisis inet car inet6 correspond à une carte wifi
+# j'ai choisis inet car correspond à une carte ethernet filaire
 # recupere ensuite toute les lignes contenant "default"
-# ensuite print uniquement le 2eme bloc
+# affiche uniquement le 2eme bloc
 netstat -rf inet| grep "default" | awk '{print $2}'
