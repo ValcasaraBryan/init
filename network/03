@@ -1,1 +1,3 @@
+# affiche uniquement l'interface en0 (qui correspond à la carte ethernet filaire) 
+# et récupere la ligne contenant "ether" car cela repressente l'adresse MAC
 ifconfig en0 | grep "ether"

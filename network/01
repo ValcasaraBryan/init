@@ -1,1 +1,2 @@
+# -l liste tous les interfaces réseaux machines sans afficher de détails
 ifconfig -l
