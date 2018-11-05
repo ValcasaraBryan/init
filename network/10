@@ -1,0 +1,3 @@
+# Grâce à la commande traceroute nous pouvons afficher directement tout les appareils réseaux
+# entre le poste et le site slash16.org
+traceroute slash16.org
