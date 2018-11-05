@@ -1,0 +1,9 @@
+# je trouve l'adress ip de 42.fr en passant par l'ip 8.8.8.8 (google.com)
+# donc public sinon en passant par l'ordinateur de l'ecole directement
+# nous tombons sur l'ip de 42.fr intra
+# ce que nous ne voulons surtout pas
+# 10.51.1.3
+# 10.51.1.4
+# 10.51.1.42
+# 10.51.1.43
+host 42.fr 8.8.8.8 | awk '/has address/ {print $4}'
