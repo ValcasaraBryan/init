@@ -1,0 +1,5 @@
+Le path du fichier dans lequel est ecrit l'adresse IP du serveur DNS se trouve dans le fichier "/etc/resolv.conf", nous pouvons le confirmer grâce au man de host :
+
+#   name is the domain name that is to be looked up. (...) server is an optional argument which is either the name
+#   or IP address of the name server that host should query instead of the server or servers
+#   listed in /etc/resolv.conf.
