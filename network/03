@@ -1,3 +1,3 @@
 # affiche uniquement l'interface en0 (qui correspond à la carte ethernet filaire) 
-# affiche chaques ligne contenant "ether" car cela repressente l'adresse MAC
-ifconfig en0 | grep "ether"
+# affiche chaques bloc n.2 contenant "ether" car cela repressente l'adresse MAC
+ifconfig en0 | awk '/ether/ {print $2}'
