@@ -1,3 +1,4 @@
+#!/bin/bash
 # affiche tout les IP correspondant au DNS slash16.org
 # recupere ensuite toute les lignes contenant PAS "handled" (traitement)
 # affiche uniquement le 4eme bloc de chaques lignes

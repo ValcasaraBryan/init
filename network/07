@@ -1,3 +1,4 @@
+#!/bin/bash
 # affiche tout les IP correspondant au DNS slash16.org en passant par le serveur 8.8.8.8 (google.com)
 # recupere ensuite toute les lignes contenant "has address" (traitement)
 # affiche uniquement le 4eme bloc de chaques lignes

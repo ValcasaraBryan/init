@@ -1,2 +1,3 @@
+#!/bin/bash
 # affiche uniquement l'interface en0 (qui correspond à la carte ethernet filaire)
 ifconfig en0
