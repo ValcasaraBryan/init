@@ -1,0 +1,10 @@
+Grace a la commande precedente traceroute slash16.org, je considere que le matierel qui fait le lien entre nous et l'exterieur est nat-1 (10.60.1.11) car :
+
+Poste : 10.13.xxx.xxx
+Passerelle : 10.60.1.11
+Exterieur : 62.210.35.1
+
+# traceroute slash16.org
+# 1  10.13.xxx.xxx (10.13.xxx.xxx) 36 bytes to 10.13.x.x  5.855 ms  0.745 ms  0.626 ms
+# 2  nat-1 (10.60.1.11) 36 bytes to 10.13.x.x  0.196 ms  0.162 ms  0.158 ms
+# 3  dc3 (62.210.35.1) 36 bytes to 10.13.x.x  1.608 ms  1.880 ms  2.134 ms
