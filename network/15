@@ -1,1 +1,3 @@
-Le fichier on l'on doit modifier l'adresse IP du nom de domaine intra.42.fr est /etc/resolv.conf
+# le fichier contenant les entrées locales DNS se trouve dans /etc/hosts
+# donc on doit rajouter une ligne pour modifier le nom de domaine de intra.42.fr
+46.19.122.85    intra.42.fr
