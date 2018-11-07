@@ -1,0 +1,10 @@
+# la commande qui permet de renommer le systeme est :
+hostname
+# ex : 
+# vagrant@stretch:~$ hostname
+# stretch
+# vagrant@stretch:~$ sudo hostname "yoooo"
+# vagrant@stretch:~$ exit
+# vagrant ssh
+# vagrant@yoooo:~$ hostname
+# yoooo
