@@ -1,0 +1,3 @@
+# la fonction "w" affiche les informations (...) sur la machine [...].
+# "up" définie le temps d'allumage de la machine
+w | awk '/up/{print}'
