@@ -1,0 +1,3 @@
+# La commande qui donne la liste des règles de pare-feu est :
+# -L = liste de vos règles de pare-feu actuelles
+iptables -L

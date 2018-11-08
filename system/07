@@ -1,0 +1,4 @@
+pgrep sshd
+# top affiche en temps reel tout les precessus
+# ps affiche une seul fois les processus 
+# pgrep affiche une fois les pid du processus nommé

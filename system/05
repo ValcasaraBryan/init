@@ -1,0 +1,4 @@
+# vagrant -h for more info
+vagrant global-status
+# ou moins de details :
+# vagrant status
