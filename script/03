@@ -1,0 +1,7 @@
+# du : Statistiques sur l'utilisation du disque
+# -a : Afficher les statistiques pour tous les fichiers, pas seulement les répertoires.
+# -h : Afficher les tailles de manière facile à lire par un humain.
+# $1 : argument en parametre n.1
+# sort : trie
+# -r : par ordre croissant chaque ligne
+du -ah $1 | sort -r

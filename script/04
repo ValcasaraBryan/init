@@ -1,0 +1,8 @@
+FONCTION=$(cat time_log)
+COMP=$(date -r /etc/crontab)
+if [$FONCION = $COMP]
+then
+    echo "Le fichier n'est pas modifier"
+else
+    echo "Le fichier à ete modifié"
+fi
