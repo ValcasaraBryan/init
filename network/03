@@ -1,4 +1,4 @@
-#!/bin/bash
-# affiche uniquement l'interface en0 (qui correspond à la carte ethernet filaire) 
+#!/bin/sh
+# affiche uniquement l'interface awdl0 (qui correspond à la carte wifi) 
 # affiche chaques bloc n.2 contenant "ether" car cela repressente l'adresse MAC
-ifconfig en0 | awk '/ether/ {print $2}'
+ifconfig awdl0 | awk '/ether/ {print $2}'

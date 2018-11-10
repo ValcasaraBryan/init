@@ -1,3 +1,4 @@
+#!/bin/sh
 # iptables -A = ajout
 # iptables -s = source
 # iptables -j = droits

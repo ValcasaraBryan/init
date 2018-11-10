@@ -1,3 +1,4 @@
+#!/bin/sh
 # kill permet de tuer le processus
 # % permet de selectionner le/les processus en arriere plan
 kill %

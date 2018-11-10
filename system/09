@@ -1,3 +1,4 @@
+#!/bin/sh
 # la commande qui permet de savoir quelles personnes sont connectés sur le systeme est :
 who
 # IDEM w

@@ -1,3 +1,4 @@
+#!/bin/sh
 # la commande permetant d’afficher cher l’espace disponible
 # et utilisé sur le système d’une manière humainement compréhensible est :
 df -h

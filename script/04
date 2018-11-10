@@ -1,13 +1,15 @@
+#!/bin/sh
 # md5sum : envoie une signature md5 pour le fichier et en change a chaque modification
 # mail : envoi un mail
 # -s : subject
+touch /etc/crontab-time_log
 VAL=$(md5sum /etc/crontab | awk '{print $1}')
 BEFORE=$(cat /etc/crontab-time_log)
-if [ $VAL != $BEFORE ]
+if [ $VAL = $BEFORE ]
 then
+    echo "Le fichier n'a pas ete modifié"
+else
     md5sum /etc/crontab | awk '{print $1}' > /etc/crontab-time_log
     echo "Le fichier à ete modifié"
-    mail -s "Le fichier à ete modifié" root@localhost < /etc/crontab
-else
-    echo "Le fichier n'a pas ete modifié"
+    mail -s "Le fichier à ete modifié" root < /etc/crontab
 fi

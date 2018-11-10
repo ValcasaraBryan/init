@@ -1,2 +1,3 @@
+#!/bin/sh
 # la commande qui permet de lister les tables de partitions des disques est :
 fdisk -l

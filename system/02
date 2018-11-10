@@ -1,3 +1,4 @@
+#!/bin/sh
 # la commande qui permet de renommer le systeme est :
 hostname
 # ex : 

@@ -1,2 +1,2 @@
-#!/bin/bash
+#!/bin/sh
 ping 10.51.1.253

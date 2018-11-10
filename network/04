@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 # -r correspond à la table de routage
 # -f correspond aux adresses familles (inet, inet6, unix)
 # j'ai choisis inet car correspond à une carte ethernet filaire

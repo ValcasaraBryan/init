@@ -1,3 +1,4 @@
+#!/bin/sh
 # du : Statistiques sur l'utilisation du disque
 # -a : Afficher les statistiques pour tous les fichiers, pas seulement les répertoires.
 # -h : Afficher les tailles de manière facile à lire par un humain.
