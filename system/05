@@ -2,3 +2,4 @@
 vagrant global-status
 # ou moins de details :
 # vagrant status
+systemctl man !!!!!!!!
